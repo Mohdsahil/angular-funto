@@ -54,7 +54,7 @@ export class ConfigService {
       return false;
     }
     if (localStorage.getItem("jwt")) {
-      return JSON.parse(localStorage.getItem("jwt"));
+      return localStorage.getItem("jwt");
     } else {
       return false;
     }
