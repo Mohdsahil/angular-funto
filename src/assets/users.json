@@ -1,0 +1,22 @@
+[
+    {
+        username: "sahil",
+        password: "sahil@2020",
+        token: "sahil_adjkasjfjakfjdfddj"
+    },
+    {
+        username: "rahul",
+        password: "rahul@2020",
+        token: "rahul_adjkasjfjakfjdfddj"
+    },
+    {
+        username: "aliya",
+        password: "aliya@2020",
+        token: "aliya_adjkasjfjakfjdfddj"
+    },
+    {
+        username: "raja",
+        password: "raja@2020",
+        token: "raja_adjkasjfjakfjdfddj"
+    }
+]

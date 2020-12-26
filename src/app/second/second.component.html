@@ -1,0 +1,16 @@
+<p>second works!</p>
+
+
+<div class="user-item" *ngFor="let user of users">
+
+    <h3> name: {{ user.name }}</h3>
+    <h4>Email: {{ user.email }}</h4>
+    <a mat-raised-button color="accent"
+    [title]="user.name + ' details'"
+    [routerLink]="['/detail', user.id]"
+  >
+   Details
+  </a>
+
+</div>
+

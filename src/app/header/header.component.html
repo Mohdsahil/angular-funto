@@ -1,0 +1,24 @@
+<div class="menu">
+<button mat-button [matMenuTriggerFor]="aboveMenu">Above</button>
+<mat-menu #aboveMenu="matMenu" yPosition="above">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+
+
+<a  mat-raised-button color="primary" *ngFor="let route of routes" routerLink="{{ route.routelink }}">{{ route.routename }}</a>
+
+<a  mat-raised-button color="primary" routerLink="/first-component">first component</a>
+ <a mat-raised-button color="accent" routerLink="/second-component">second component</a>
+<a mat-raised-button color="warn" routerLink="/login">login</a>
+<a mat-raised-button color="primary" routerLink="/dashboard">dashboard</a>
+
+
+
+
+<button mat-button [matMenuTriggerFor]="afterMenu">After</button>
+<mat-menu #afterMenu="matMenu" xPosition="after">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+</div>

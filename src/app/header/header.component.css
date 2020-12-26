@@ -1,0 +1,7 @@
+.menu {
+    padding: 1rem;
+}
+.menu a, .menu a:hover, .menu a:active {
+    text-decoration: none;
+    margin: 0 10px;
+}

@@ -1,0 +1,41 @@
+ <!-- <app-navbar></app-navbar>
+
+<div class="container">
+    <router-outlet></router-outlet>
+</div> 
+<div class="container">
+
+<section class="mat-typography">
+    <h1>buttons</h1>
+    <button mat-button color="accent">Button</button>
+    <button mat-raised-button color="accent">Button</button>
+    <button mat-stroked-button color="primary">Button</button>
+    <button mat-flat-button color="warm">Button</button>
+    <button mat-icon-button  >
+        <mat-icon color="primary">check_circle</mat-icon>
+      </button>
+</section>
+
+<section class="mat-typography">
+    <h1 > Toggle Buttons</h1>
+    <span matBadge="4" matBadgeOverlap="false" matBadgeColor="accent" matBadgePosition="before"> Toggle Buttons</span>
+    
+    <button mat-raised-button [matBadge]="notification" [matBadgeHidden]="notification ==" matBadgePosition="below after" >
+        Hide
+    </button>
+    <div>
+        <mat-button-toggle #toggleBtn checked>Toggle</mat-button-toggle>
+        {{ toggleBtn.checked }}
+    </div>
+    <div>
+        <mat-button-toggle-group #toggleGroup="matButtonToggleGroup" multiple>  add multiple attribute for multiple selectiona
+        <mat-button-toggle value="toggle I">Toggle 1</mat-button-toggle>
+        <mat-button-toggle value="toggle II">Toggle 2</mat-button-toggle>
+        <mat-button-toggle value="toggle III">Toggle 3</mat-button-toggle>
+        </mat-button-toggle-group>
+        {{ toggleGroup.value }}
+    </div>
+</section>
+
+
+</div> -->
